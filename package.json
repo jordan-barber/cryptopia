@@ -1,0 +1,9 @@
+{
+  "name": "cryptopia",
+  "version": "0.0.0",
+  "description": "An application to manage and monitor crypto currencies.",
+  "main": "index.js",
+  "repository": "https://github.com/jordan-barber/cryptopia.git",
+  "author": "Jordan Barber <jdabarber5@gmail.com>",
+  "license": "MIT"
+}
