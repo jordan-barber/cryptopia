@@ -16,11 +16,11 @@
     "fix": "tslint --project . --fix && yarn prettier --write \"./**/*.{ts,js,json,md}\" --loglevel warn"
   },
   "devDependencies": {
-    "global": "^4.4.0",
-    "prettier": "^1.18.2",
-    "ts-node-dev": "^1.0.0-pre.40",
-    "tslint": "^5.18.0",
-    "tslint-config-airbnb": "^5.11.1",
-    "typescript": "^3.5.2"
+    "global": "4.4.0",
+    "prettier": "1.18.2",
+    "ts-node-dev": "1.0.0-pre.40",
+    "tslint": "5.18.0",
+    "tslint-config-airbnb": "5.11.1",
+    "typescript": "3.5.2"
   }
 }
