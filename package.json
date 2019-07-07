@@ -5,5 +5,22 @@
   "main": "index.js",
   "repository": "https://github.com/jordan-barber/cryptopia.git",
   "author": "Jordan Barber <jdabarber5@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly api/index.ts",
+    "compile": "ts api/*",
+    "lint": "tslint --project .",
+    "lint:fix": "tslint --project . --fix",
+    "prettier": "prettier --check \"./**/*.{ts,js,json,md}\"",
+    "prettier:fix": "yarn prettier --write \"./**/*.{ts,js,json,md}\" --loglevel warn",
+    "fix": "tslint --project . --fix && yarn prettier --write \"./**/*.{ts,js,json,md}\" --loglevel warn"
+  },
+  "devDependencies": {
+    "global": "^4.4.0",
+    "prettier": "^1.18.2",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.5.2"
+  }
 }
