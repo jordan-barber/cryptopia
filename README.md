@@ -1,6 +1,6 @@
 # Cryptopia
 
-<h3 align="center">manage Crypto through the power of JS</h3>
+<h3 align="center">Manage Crypto through the power of JS</h3>
 
 ## About
 
