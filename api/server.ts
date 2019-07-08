@@ -1,7 +1,7 @@
 import koa from "koa";
 import router from "./router";
-import logger from "./middleware/logger";
-import config from "./middleware/config";
+import Logger from "./middleware/logger";
+import Config from "./middleware/config";
 
 const app: koa = new koa();
 const config: Config = new Config();

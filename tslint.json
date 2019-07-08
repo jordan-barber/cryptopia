@@ -16,6 +16,13 @@
         },
         "esSpecCompliant": true
       }
+    ],
+    "import-name": [
+      true,
+      {
+        "logger": "Logger",
+        "config": "Config"
+      }
     ]
   },
   "rulesDirectory": []
