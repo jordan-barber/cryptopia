@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  cryptopia_api:
+    build: .
+    ports:
+      - "3000"
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
+    depends_on: 
+      - database
+    command: sh -c "yarn && yarn run dev"
+  database: 
+    image: mysql
+    command: --default authentication-plugin=mysql_native_password
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+

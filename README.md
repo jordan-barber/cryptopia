@@ -14,6 +14,18 @@ Cryptopia is primarily Node and Typescript based, so ensure you have the latest 
 
 _API_ - Koa and Typescript API. For now just returns hello world. In the future will be an OAuth2 Passport provider, along with other things. _Runs on port 3000_.
 
+### Docker
+
+This project utilises Docker. It has both a Dockerfile as well as a docker-compose.yml. For local development, it is normally better to use the `docker-compose` approach.
+
+### Docker commands
+
+| Command             | Description                               |
+| ------------------- | ----------------------------------------- |
+| `docker-compose up` | Boots up a MySQL and API instance         |
+| `docker build -t    | Builds a docker image for the cryptopia   |
+| cryptopia_api .`    | API.                                      |
+
 ### Useful commands
 
 | Command             | Description                               |
