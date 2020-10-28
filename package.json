@@ -16,7 +16,7 @@
     "fix": "tslint --project . --fix && yarn prettier --write \"./**/*.{ts,js,json,md}\" --loglevel warn"
   },
   "devDependencies": {
-    "@types/koa": "2.0.49",
+    "@types/koa": "2.11.6",
     "@types/koa-router": "7.0.42",
     "global": "4.4.0",
     "prettier": "1.18.2",
